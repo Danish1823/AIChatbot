@@ -27,7 +27,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/chat",
+            "https://ai-chatbot-backend-ldb9.onrender.com/api/chat",
         {
           method: "POST",
           headers: {
